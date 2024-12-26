@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+    .work-sans-<uniquifier> {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.overpass-<uniquifier> {
+  font-family: "Overpass", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --LightGrey1: hsl(217, 12%, 63%);
+--Orange: hsl(25, 97%, 53%);
+--White: hsl(0, 0%, 100%);
+--LightGrey: hsl(223, 4%, 37%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+--Fontsize : 15px;
+}
+body{
+    background: var(--VeryDarkBlue);
+}
+.container{
+    background: var(--DarkBlue);
+    max-width: 350px;
+    margin: 180px auto 50px auto;
+    padding: 35px;
+    border-radius: 15px;
+    display: block;
+}
+.container1{
+    background: var(--DarkBlue);
+    max-width: 350px;
+    margin: 180px auto 50px auto;
+    padding: 35px;
+    border-radius: 15px;
+    display: none;
+    text-align: center;
+}
+.circle{
+    background: var(--LightGrey);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+}
+.star{
+   width: 25px;
+   margin-top: 12px;
+}
+.how{
+   margin-top: 15px;
+  font-size: 30px;
+  color: var(--White);
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.please{
+    color: var(--LightGrey);
+    margin-top: 15px;
+  font-size: 18px;
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  
+
+}
+.num{
+    margin: 25px auto 25px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.number{
+    color: var(--White);
+    font-size: 20px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 13px;
+    
+}
+.circlen:hover{
+    background: var(--Orange);
+    
+}
+.circlen{
+    background: var(--LightGrey);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.submit{
+    width: 350px;
+    font-size: 20px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+  color: var(--VeryDarkBlue);
+  background: var(--Orange);
+  cursor: pointer;
+}
+.submit:hover{
+    background: var(--White);
+}
+.ill{
+   
+   padding-top: 20px;
+   padding-bottom: 20px;
+   
+}
+.select{
+    background: var(--LightGrey);
+    padding: 10px;
+    width: 250px;
+    margin: 10px auto 0px auto;
+    border-radius: 100px;
+    
+}
+.you{
+    font-size: 17px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--Orange);
+}
+.thank{
+    color: var(--White);
+    font-size: 33px;
+    margin-top: 25px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.we{
+    color: var(--LightGrey1);
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+  margin-top: 20px;
+}
+@media screen and (max-width:375px) {
+    .container{
+        max-width: 280px;
+        margin: 160px auto 50px auto;
+        padding: 19px;
+    }
+    .container1{
+        max-width: 280px;
+        margin: 160px auto 50px auto;
+        padding: 19px;
+    }
+    .circle{
+        width: 40px;
+        height: 40px;
+        
+    }
+    .star{
+        width: 18px;
+     }
+     .how{
+        margin-top: 13px;
+       font-size: 25px;
+       
+     }
+     
+    .please{
+        margin-top: 13px;
+    font-size: 15px;
+    
+    
+
+    }
+    .num{
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+    }
+    .circlen{
+        width: 50px;
+        height: 40px;
+        
+    }
+    .number{
+        
+      margin-top: 9px;
+        font-size: 18px;
+    }
+    .submit{
+        width: 280px;
+        font-size: 18px;
+        
+      font-weight: 550;
+      
+      height: 40px;
+      
+      
+    }
+}
+
+/*
+    .work-sans-<uniquifier> {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.overpass-<uniquifier> {
+  font-family: "Overpass", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/

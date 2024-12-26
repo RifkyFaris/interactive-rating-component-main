@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+  <div id="container" class="container">
+    <div class="circle"><img class="star" src="./images//icon-star.svg" alt="star image"></div>
+    <p class="how">How did we do?</p>
+    <p class="please">
+      
+      Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+    </p>
+    <div class="num">
+      <div  value="1" id="c1" onclick="onclick1()" class="circlen"><p id="number1" class="number">1</p></div>
+      <div value="2"  id="c2" onclick="onclick2()" class="circlen"><p id="number2" class="number">2</p></div>
+      <div value="3"  id="c3" onclick="onclick3()" class="circlen"><p id="number3" class="number">3</p></div>
+      <div value="4"  id="c4" onclick="onclick4()" class="circlen"><p id="number4" class="number">4</p></div>
+      <div value="5"  id="c5" onclick="onclick5()" class="circlen"><p id="number5" class="number">5</p></div>
+    
+    </div>
+    <button class="submit" onclick="thank()">SUBMIT</button>
+  </div>
+  <div id="container1" class="container1">
+    <div class="ill">
+      <img  src="./images//illustration-thank-you.svg" alt="thank you illustration">
+    </div>
+    <div class="select">
+      <p id="you" class="you"></p>
+    </div>
+
+    <p class="thank">  Thank you!</p>
+
+    <p class="we"> We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
+  </div>
+
+
+
+
+  
+
+  <script src="script.js"></script>
+
+</body>
+</html>
