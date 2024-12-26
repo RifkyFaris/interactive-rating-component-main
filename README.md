@@ -3,7 +3,7 @@
 
 # interactive-rating-component-main
 Frontend Mentor project solution for interactive-rating-component-main .
-[Live](https://rifkyfaris.github.io/recipe-page-main/) 
+[Live](https://rifkyfaris.github.io/interactive-rating-component-main/) 
 
 
 
